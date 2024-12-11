@@ -58,9 +58,10 @@ public class Viva2Q1 {
          }
          
     public static void checkBalance(double balance){
-                System.out.printf("Current balance: %.2f%n",balance);  
+         System.out.printf("Current balance: %.2f%n",balance);  
         }
-         public static double deposit(double balance, double amount) {
+        
+    public static double deposit(double balance, double amount) {
         if (amount > 0) {
             balance += amount;  // Add deposit amount to balance
             System.out.printf("Your balance is now: %.2f%n",balance);
