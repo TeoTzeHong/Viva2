@@ -11,6 +11,7 @@ public class Viva2Q1 {
         double balance=1000.0;
          String transactionHistory = ""; 
         int option;
+        sout test
         
         System.out.println("Welcome to the Bank!");
         do{
